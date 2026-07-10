@@ -24,11 +24,19 @@ This system automates equity research analysis by:
 
 ## 🛠️ Tech Stack
 
-- **Python 3.14+** — Core language
-- **Streamlit** — Web UI framework
-- **Plotly** — Professional data visualization
-- **Ollama (Mistral 7B)** — Local AI model for analysis
-- **Requests** — HTTP library for API calls
+- **Frontend:** Streamlit (web UI framework)
+- **Data Visualization:** Plotly (professional charts)
+- **HTTP Client:** Requests (API calls)
+- **Numerical Computing:** NumPy (calculations)
+- **Local AI:** Ollama + Mistral 7B (on-device LLM)
+- **Language:** Python 3.10+
+
+### Prerequisites
+- **OS:** macOS, Windows (with WSL), or Linux
+- **Python:** 3.10 or higher
+- **Ollama:** Installed and running (download from https://ollama.ai)
+- **Memory:** 8GB RAM minimum (for running local LLM)
+
 
 ## 📊 How It Works
 User selects company →
